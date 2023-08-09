@@ -1,7 +1,7 @@
 header{
-    background-color:#EEB697;
+    background-color:#FFCD9E;
     flex-wrap:wrap;
-    height:500px;
+    height:600px;
     width:1520px;
     
   }
@@ -12,21 +12,27 @@ header{
     color:black;
     width:500px;
     
-    margin:100px;
+    margin:90px;
     font-family:arial;
     flex-wrap:wrap;
   }
   .header-right{
     text-align:right;
-    margin:50px;
-    float:right;
+   
+    display:inline;
+    height:200px;
+    width:400px;
+    size: 20%;
+    margin:auto;
+    font-family:arial;
+    
     
   }
   
   footer{
     background-color:#282828;
     flex-wrap:wrap;
-    height:200px;
+    height:350px;
     width:1520px;
     
   }
@@ -34,12 +40,25 @@ header{
     TEXT-ALIGN:LEFT;
     float:left;
     color:white;
-    font-family:arial;
+    margin-left:100px;
+    margin-top:70px;
+font-size: 20px;
+font-family: Arial;
+font-weight: 400;
+line-height: 15px;
+word-wrap: break-word
   }
   .footer-right{
     text-align:right;
     float:right;
-    
+    color:white;
+    margin-right:100px;
+    margin-top:70px;
+font-size: 20px;
+font-family: Arial;
+font-weight: 400;
+line-height: 15px;
+word-wrap: break-word
   }
   input[type=text] {
     width: 344px;
@@ -80,4 +99,30 @@ text-align: center;
 
 color: #FFFFFF;
 
+}
+
+.fa {
+  font-size: 20;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+
+  color: #FFCD9E;
+}
+
+/* Twitter */
+.fa-instagram {
+ 
+  color: #FFCD9E;
 }
